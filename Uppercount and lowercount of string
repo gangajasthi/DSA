@@ -1,0 +1,9 @@
+s=input()
+uc=0
+lc=0
+for ch in s:
+    if ch>='A' and ch<='Z':
+        uc+=1
+    else:
+        lc+=1
+print(uc,lc)
